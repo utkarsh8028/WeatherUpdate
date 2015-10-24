@@ -6,14 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b16486f-7c52-4ef0-a9ec-aaf5e6e2ef50" name="Default" comment="appid in the api">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/utkarsh/sunshine/sync/SunshineSyncAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/utkarsh/sunshine/sync/SunshineSyncAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/utkarsh/sunshine/data/TestDb.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/utkarsh/sunshine/data/TestDb.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/utkarsh/sunshine/data/TestProvider.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/utkarsh/sunshine/data/TestProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/utkarsh/sunshine/forecastFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/utkarsh/sunshine/forecastFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/utkarsh/sunshine/myActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/utkarsh/sunshine/myActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" />
+    <list default="true" id="1b16486f-7c52-4ef0-a9ec-aaf5e6e2ef50" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Sunshine.iws" />
@@ -1847,6 +1840,13 @@
       <option name="number" value="Default" />
       <updated>1435599048459</updated>
     </task>
+    <task id="LOCAL-00001" summary="appid in the api">
+      <created>1445717263529</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1445717263529</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
