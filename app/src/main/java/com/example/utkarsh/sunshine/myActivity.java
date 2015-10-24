@@ -12,7 +12,7 @@ import com.example.utkarsh.sunshine.sync.SunshineSyncAdapter;
 
 public class myActivity extends ActionBarActivity implements forecastFragment.Callback {
 
-    private final String LOG_TAG = myActivity.class.getSimpleName();
+   /* private final String LOG_TAG = myActivity.class.getSimpleName();*/
     private static final String DETAILFRAGMENT_TAG = "DFTAG";
 
     private boolean mTwoPane;

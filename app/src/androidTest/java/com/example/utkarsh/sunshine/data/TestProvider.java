@@ -20,7 +20,7 @@ import com.example.utkarsh.sunshine.data.WeatherContract.*;
 
 public class TestProvider extends AndroidTestCase {
 
-    public static final String LOG_TAG = TestProvider.class.getSimpleName();
+    /*public static final String LOG_TAG = TestProvider.class.getSimpleName();*/
 
     /*
        This helper function deletes all records from both database tables using the ContentProvider.
@@ -227,7 +227,7 @@ public class TestProvider extends AndroidTestCase {
 
         // Verify we got a row back.
         assertTrue(locationRowId != -1);
-        Log.d(LOG_TAG, "New row id: " + locationRowId);
+        /*Log.d(LOG_TAG, "New row id: " + locationRowId);*/
 
         ContentValues updatedValues = new ContentValues(values);
         updatedValues.put(LocationEntry._ID, locationRowId);

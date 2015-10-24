@@ -49,7 +49,7 @@ import java.util.Vector;
  */
 
 public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
-    public final String LOG_TAG = SunshineSyncAdapter.class.getSimpleName();
+   /* public final String LOG_TAG = SunshineSyncAdapter.class.getSimpleName();*/
     // Interval at which to sync with the weather, in seconds.
     // 60 seconds (1 minute) * 180 = 3 hours
     public static final int SYNC_INTERVAL = 60 * 180;
@@ -76,7 +76,7 @@ public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
 
     @Override
     public void onPerformSync(Account account, Bundle extras, String authority, ContentProviderClient provider, SyncResult syncResult) {
-        Log.d(LOG_TAG, "Starting sync");
+       /* Log.d(LOG_TAG, "Starting sync");*/
         String locationQuery = Utility.getPreferredLocation(getContext());
 
         // These two need to be declared outside the try/catch
@@ -90,6 +90,7 @@ public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
         String format = "json";
         String units = "metric";
         int numDays = 14;
+        String apid="bd82977b86bf27fb59a04b61b657fb6f";
 
         try {
             // Construct the URL for the OpenWeatherMap query
@@ -101,13 +102,17 @@ public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
             final String FORMAT_PARAM = "mode";
             final String UNITS_PARAM = "units";
             final String DAYS_PARAM = "cnt";
+            final String APPID_PARAM="appid";
 
-            Uri builtUri = Uri.parse(FORECAST_BASE_URL).buildUpon()
+            Uri builtUri;
+            builtUri = Uri.parse(FORECAST_BASE_URL).buildUpon()
                     .appendQueryParameter(QUERY_PARAM, locationQuery)
                     .appendQueryParameter(FORMAT_PARAM, format)
                     .appendQueryParameter(UNITS_PARAM, units)
                     .appendQueryParameter(DAYS_PARAM, Integer.toString(numDays))
-                    .build();
+                    .appendQueryParameter(APPID_PARAM, apid)
+
+                            .build();
 
             URL url = new URL(builtUri.toString());
 
@@ -140,11 +145,11 @@ public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
             forecastJsonStr = buffer.toString();
             getWeatherDataFromJson(forecastJsonStr, locationQuery);
         } catch (IOException e) {
-            Log.e(LOG_TAG, "Error ", e);
+           /* Log.e(LOG_TAG, "Error ", e);*/
             // If the code didn't successfully get the weather data, there's no point in attempting
             // to parse it.
         } catch (JSONException e) {
-            Log.e(LOG_TAG, e.getMessage(), e);
+           /* Log.e(LOG_TAG, e.getMessage(), e);*/
             e.printStackTrace();
         } finally {
             if (urlConnection != null) {
@@ -154,7 +159,7 @@ public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
                 try {
                     reader.close();
                 } catch (final IOException e) {
-                    Log.e(LOG_TAG, "Error closing stream", e);
+                    /*Log.e(LOG_TAG, "Error closing stream", e);*/
                 }
             }
         }
@@ -306,10 +311,10 @@ public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
                 notifyWeather();
             }
 
-            Log.d(LOG_TAG, "Sync Complete. " + cVVector.size() + " Inserted");
+            /*Log.d(LOG_TAG, "Sync Complete. " + cVVector.size() + " Inserted");*/
 
         } catch (JSONException e) {
-            Log.e(LOG_TAG, e.getMessage(), e);
+            /*Log.e(LOG_TAG, e.getMessage(), e);*/
             e.printStackTrace();
         }
     }

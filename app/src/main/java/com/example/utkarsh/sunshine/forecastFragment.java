@@ -27,7 +27,7 @@ import com.example.utkarsh.sunshine.data.WeatherContract;
 import com.example.utkarsh.sunshine.sync.SunshineSyncAdapter;
 
 public class forecastFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor> {
-    public static final String LOG_TAG = forecastFragment.class.getSimpleName();
+  /* public static final String LOG_TAG = forecastFragment.class.getSimpleName();*/
     private ForecastAdapter mForecastAdapter;
 
 
@@ -198,7 +198,7 @@ public class forecastFragment extends Fragment implements LoaderManager.LoaderCa
                 if (intent.resolveActivity(getActivity().getPackageManager()) != null) {
                     startActivity(intent);
                 } else {
-                    Log.d(LOG_TAG, "Couldn't call " + geoLocation.toString() + ", no receiving apps installed!");
+                   /* Log.d(LOG_TAG, "Couldn't call " + geoLocation.toString() + ", no receiving apps installed!");*/
                 }
             }
 
