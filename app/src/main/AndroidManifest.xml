@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.utkarsh.sunshine"
+    package="com.dappers.utkarsh.sunshine"
     android:versionCode="1"
     android:versionName="1.0"
     android:installLocation="auto" >
@@ -38,7 +38,7 @@
             android:parentActivityName=".myActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.utkarsh.sunshine.myActivity" />
+                android:value="com.dappers.utkarsh.sunshine.myActivity" />
         </activity>
         <activity
             android:name=".SettingsActivity"
@@ -47,7 +47,7 @@
             android:theme="@style/SettingsTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.utkarsh.sunshine.myActivity" />
+                android:value="com.dappers.utkarsh.sunshine.myActivity" />
         </activity>
         <provider
             android:authorities="@string/content_authority"
