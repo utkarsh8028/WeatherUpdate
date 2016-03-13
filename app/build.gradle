@@ -8,8 +8,8 @@ android {
         applicationId "com.dappers.utkarsh.sunshine"
         minSdkVersion 14
         targetSdkVersion 22
-        versionCode 3
-        versionName "2.0"
+        versionCode 4
+        versionName "2.1"
     }
     buildTypes {
         release {
@@ -25,4 +25,5 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:22.2.0'
     compile 'com.android.support:support-v4:22.2.0'
+    compile 'com.google.android.gms:play-services-ads:8.4.0'
 }

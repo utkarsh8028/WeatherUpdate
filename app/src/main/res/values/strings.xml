@@ -57,6 +57,7 @@
 
     <!-- Value in SharedPreferences for imperial temperature unit option [CHAR LIMIT=NONE] -->
     <string name="pref_units_imperial" translatable="false">Fahrenheit</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6012609357196634/6477596102</string>
 
 
     <!-- Language-specific constants -->
