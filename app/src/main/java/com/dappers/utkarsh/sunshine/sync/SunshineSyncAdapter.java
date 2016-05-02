@@ -88,8 +88,8 @@ public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
 
         String format = "json";
         String units = "metric";
-        int numDays = 14;
-        String apid="b1b15e88fa797225412429c1c50c122a";
+        int numDays = 5;
+        String apid="573e6fb7f6a8de5a9e247f838208f056";
 
         try {
             // Construct the URL for the OpenWeatherMap query
