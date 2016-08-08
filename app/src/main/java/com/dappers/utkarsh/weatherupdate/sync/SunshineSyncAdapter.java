@@ -1,4 +1,4 @@
-package com.dappers.utkarsh.sunshine.sync;
+package com.dappers.utkarsh.weatherupdate.sync;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -26,10 +26,10 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
 import android.text.format.Time;
 
-import com.dappers.utkarsh.sunshine.R;
-import com.dappers.utkarsh.sunshine.Utility;
-import com.dappers.utkarsh.sunshine.data.WeatherContract;
-import com.dappers.utkarsh.sunshine.myActivity;
+import com.dappers.utkarsh.weatherupdate.R;
+import com.dappers.utkarsh.weatherupdate.Utility;
+import com.dappers.utkarsh.weatherupdate.data.WeatherContract;
+import com.dappers.utkarsh.weatherupdate.myActivity;
 
 import org.json.JSONArray;
 import org.json.JSONException;

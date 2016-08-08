@@ -1,4 +1,4 @@
-package com.dappers.utkarsh.sunshine.data;
+package com.dappers.utkarsh.weatherupdate.data;
 
 import android.content.ContentResolver;
 import android.content.ContentUris;
@@ -12,7 +12,7 @@ public class WeatherContract {
     // relationship between a domain name and its website.  A convenient string to use for the
     // content authority is the package name for the app, which is guaranteed to be unique on the
     // device.
-    public static final String CONTENT_AUTHORITY = "com.dappers.utkarsh.sunshine";
+    public static final String CONTENT_AUTHORITY = "com.dappers.utkarsh.weatherupdate";
 
     // Use CONTENT_AUTHORITY to create the base of all URI's which apps will use to contact
     // the content provider.

@@ -1,11 +1,11 @@
-package com.dappers.utkarsh.sunshine;
+package com.dappers.utkarsh.weatherupdate;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.text.format.Time;
 
-import com.dappers.utkarsh.sunshine.R;
+import com.dappers.utkarsh.weatherupdate.R;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

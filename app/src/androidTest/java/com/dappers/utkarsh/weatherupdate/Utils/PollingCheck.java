@@ -1,4 +1,4 @@
-package com.dappers.utkarsh.sunshine.Utils;
+package com.dappers.utkarsh.weatherupdate.Utils;
 
 /**
  * Created by utkarsh on 18-04-2015.

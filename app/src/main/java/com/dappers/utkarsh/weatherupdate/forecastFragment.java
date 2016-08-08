@@ -1,4 +1,4 @@
-package com.dappers.utkarsh.sunshine;
+package com.dappers.utkarsh.weatherupdate;
 
 /**
  * Created by utkarsh on 19-04-2015.
@@ -22,10 +22,9 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.dappers.utkarsh.sunshine.data.WeatherContract;
-import com.dappers.utkarsh.sunshine.sync.SunshineSyncAdapter;
-import com.dappers.utkarsh.sunshine.R;
-import com.google.ads.mediation.admob.AdMobAdapter;
+import com.dappers.utkarsh.weatherupdate.data.WeatherContract;
+import com.dappers.utkarsh.weatherupdate.sync.SunshineSyncAdapter;
+import com.dappers.utkarsh.weatherupdate.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 

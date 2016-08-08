@@ -3,7 +3,7 @@
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.dappers.utkarsh.sunshine.forecastFragment">
+    tools:context="com.dappers.utkarsh.weatherupdate.forecastFragment">
     <ListView
         style="@style/ForecastListStyle"
         android:id="@+id/listview_forecast"

@@ -1,4 +1,4 @@
-package com.dappers.utkarsh.sunshine.sync;
+package com.dappers.utkarsh.weatherupdate.sync;
 
 import android.accounts.AbstractAccountAuthenticator;
 import android.accounts.Account;

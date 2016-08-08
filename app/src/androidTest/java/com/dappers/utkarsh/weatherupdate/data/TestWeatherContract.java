@@ -1,4 +1,4 @@
-package com.dappers.utkarsh.sunshine.data;
+package com.dappers.utkarsh.weatherupdate.data;
 
 import android.net.Uri;
 import android.test.AndroidTestCase;

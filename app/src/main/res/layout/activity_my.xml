@@ -2,10 +2,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:id="@+id/fragment_forecast"
-    android:name="com.dappers.utkarsh.sunshine.forecastFragment"
+    android:name="com.dappers.utkarsh.weatherupdate.forecastFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.dappers.utkarsh.sunshine.forecastFragment"
+    tools:context="com.dappers.utkarsh.weatherupdate.forecastFragment"
     tools:layout="@android:layout/list_content">
 
 </fragment>

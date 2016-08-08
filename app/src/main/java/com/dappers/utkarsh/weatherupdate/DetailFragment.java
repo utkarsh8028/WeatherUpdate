@@ -1,4 +1,4 @@
-package com.dappers.utkarsh.sunshine;
+package com.dappers.utkarsh.weatherupdate;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -18,9 +18,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.dappers.utkarsh.sunshine.R;
+import com.dappers.utkarsh.weatherupdate.R;
 
-import com.dappers.utkarsh.sunshine.data.WeatherContract;
+import com.dappers.utkarsh.weatherupdate.data.WeatherContract;
 
 /**
  * Created by utkarsh on 21-04-2015.

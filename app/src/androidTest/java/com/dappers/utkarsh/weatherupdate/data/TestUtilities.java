@@ -1,4 +1,4 @@
-package com.dappers.utkarsh.sunshine.data;
+package com.dappers.utkarsh.weatherupdate.data;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.os.Handler;
 import android.os.HandlerThread;
 import android.test.AndroidTestCase;
 
-import com.dappers.utkarsh.sunshine.Utils.PollingCheck;
+import com.dappers.utkarsh.weatherupdate.Utils.PollingCheck;
 
 import java.util.Map;
 import java.util.Set;

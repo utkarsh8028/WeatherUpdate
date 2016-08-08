@@ -1,4 +1,4 @@
-package com.dappers.utkarsh.sunshine.data;
+package com.dappers.utkarsh.weatherupdate.data;
 
 import android.content.ComponentName;
 import android.content.ContentUris;
@@ -11,7 +11,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.test.AndroidTestCase;
 
-import com.dappers.utkarsh.sunshine.data.WeatherContract.*;
+import com.dappers.utkarsh.weatherupdate.data.WeatherContract.*;
 
 /**
  * Created by utkarsh on 19-04-2015.

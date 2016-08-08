@@ -1,4 +1,4 @@
-package com.dappers.utkarsh.sunshine;
+package com.dappers.utkarsh.weatherupdate;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.dappers.utkarsh.sunshine.R;
+import com.dappers.utkarsh.weatherupdate.R;
 
 public class DetailActivity extends ActionBarActivity {
 

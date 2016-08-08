@@ -1,4 +1,4 @@
-package com.dappers.utkarsh.sunshine;
+package com.dappers.utkarsh.weatherupdate;
 
 
 import android.content.Intent;
@@ -8,9 +8,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.dappers.utkarsh.sunshine.R;
-import com.dappers.utkarsh.sunshine.sync.SunshineSyncAdapter;
-import com.google.android.gms.ads.AdRequest;
+import com.dappers.utkarsh.weatherupdate.R;
+import com.dappers.utkarsh.weatherupdate.sync.SunshineSyncAdapter;
 import com.google.android.gms.ads.AdView;
 
 public class myActivity extends ActionBarActivity implements forecastFragment.Callback {

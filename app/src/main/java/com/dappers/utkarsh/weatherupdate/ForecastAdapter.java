@@ -1,4 +1,4 @@
-package com.dappers.utkarsh.sunshine;
+package com.dappers.utkarsh.weatherupdate;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -8,8 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.dappers.utkarsh.sunshine.R;
-import com.dappers.utkarsh.sunshine.data.WeatherContract;
+import com.dappers.utkarsh.weatherupdate.R;
 
 public class ForecastAdapter extends CursorAdapter {
 
