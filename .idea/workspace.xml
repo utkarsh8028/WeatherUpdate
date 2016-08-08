@@ -10,42 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b16486f-7c52-4ef0-a9ec-aaf5e6e2ef50" name="Default" comment="Added ads and limitations">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_2_0.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/sunshine/FullTestSuite.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/weatherupdate/FullTestSuite.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/sunshine/Utils/PollingCheck.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/weatherupdate/Utils/PollingCheck.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/sunshine/data/TestDb.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/weatherupdate/data/TestDb.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/sunshine/data/TestPractice.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/weatherupdate/data/TestPractice.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/sunshine/data/TestProvider.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/weatherupdate/data/TestProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/sunshine/data/TestUriMatcher.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/weatherupdate/data/TestUriMatcher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/sunshine/data/TestUtilities.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/weatherupdate/data/TestUtilities.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/sunshine/data/TestWeatherContract.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/dappers/utkarsh/weatherupdate/data/TestWeatherContract.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/sunshine/DetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/weatherupdate/DetailActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/sunshine/DetailFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/weatherupdate/DetailFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/sunshine/ForecastAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/weatherupdate/ForecastAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/sunshine/SettingsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/weatherupdate/SettingsActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/sunshine/Utility.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/weatherupdate/Utility.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/sunshine/data/WeatherContract.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/weatherupdate/data/WeatherContract.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/sunshine/data/WeatherDbHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/weatherupdate/data/WeatherDbHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/sunshine/data/WeatherProvider.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/weatherupdate/data/WeatherProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/sunshine/forecastFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/weatherupdate/forecastFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/sunshine/myActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/weatherupdate/myActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/sunshine/sync/SunshineAuthenticator.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/weatherupdate/sync/SunshineAuthenticator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/sunshine/sync/SunshineAuthenticatorService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/weatherupdate/sync/SunshineAuthenticatorService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/sunshine/sync/SunshineSyncAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/weatherupdate/sync/SunshineSyncAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/sunshine/sync/SunshineSyncService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dappers/utkarsh/weatherupdate/sync/SunshineSyncService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp/activity_my.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp/activity_my.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/detail.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/detail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/forecastfragment.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/forecastfragment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_my.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_my.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/my.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/my.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+    <list default="true" id="1b16486f-7c52-4ef0-a9ec-aaf5e6e2ef50" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Sunshine.iws" />
@@ -2506,7 +2471,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462210935596</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="chnaged package name">
+      <created>1470629139240</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1470629139240</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2601,7 +2572,8 @@
     <MESSAGE value="Added ads" />
     <MESSAGE value="Added ads and limitations" />
     <MESSAGE value="5days broadcast" />
-    <option name="LAST_COMMIT_MESSAGE" value="5days broadcast" />
+    <MESSAGE value="chnaged package name" />
+    <option name="LAST_COMMIT_MESSAGE" value="chnaged package name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
